@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">BlinkShareTravel</string>
+    <string name="fb_login_protocol_scheme">fb904137196716134</string>
+    <string name="default_notification_channel_id">367136dasdsad12y39126391237912</string>
+
+    <string name="google_maps_api_key" translatable="false">AIzaSyA9YvGJNu6_pmYbxPQchTgQKuOOvA95ixk</string>
+
+    <!--Login Screen-->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="title_forgot_password">FORGOT PASSWORD</string>
+    <string name="title_login_or_create_account_using">Login or create account using</string>
+    <string name="title_login_btn">LOGIN</string>
+    <string name="title_visit_as_guest_btn">VISIT AS GUEST</string>
+    <string name="title_faq">FAQ</string>
+    <string name="title_dont_have_account">Don\'t have an account yet?</string>
+    <string name="title_create_account">CREATE ONE NOW</string>
+
+    <!--SignUp Screen-->
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="title_create_account_btn">CREATE ACCOUNT</string>
+    <string name="title_already_have_account">Already have an account?</string>
+    <string name="title_login_now">LOGIN</string>
+
+    <!--Forgot Password Screen-->
+    <string name="screen_title_forgot_password">Forgot password</string>
+    <string name="title_send_btn">SEND</string>
+    <string name="title_instructions">Enter the e-mail address linked to your address below. We will send you an e-mail to reset your password.</string>
+
+    <!--SignUp details Screen-->
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_username">Username</string>
+    <string name="title_btn_continue">CONTINUE</string>
+    <string name="title_privacy_policy">PRIVACY POLICY</string>
+    <string name="title_terms_conditions">TERMS AND CONDITIONS</string>
+
+    <!--SignUp more details Screen-->
+    <string name="btn_title_tags">Tags</string>
+    <string name="title_instructions2">What are you interested in today? Right down as many tag words as you want, they can be modified later in your settings</string>
+    <string name="hint_preferred_currency">Preferred Currency</string>
+    <string name="hint_age">Age</string>
+    <string name="title_fill_following_instructions">Please fill the following</string>
+    <string name="title_welcome_to">Welcome to BlinkShare</string>
+    <string name="title_instructions3">Tags are important: as soon as some posts an item with one of your tags, you will receive an immediate notification</string>
+
+    <!--Select Tags Screen-->
+    <string name="title_tags">Has someone shared their username hashtag with you? You can enter it here or any subject you’re interested in. You can also skip this step for now and Finalize Registration.</string>
+    <string name="hint_add_tags">Add #tags</string>
+    <string name="title_btn_done_tags">Done</string>
+
+    <!--Select Module Screen-->
+    <string name="title_select_module">What do you want to do now?</string>
+    <string name="title_btn_browse">BROWSE</string>
+    <string name="title_btn_post">POST</string>
+    <string name="title_btn_go_to_settings">GO TO SETTINGS</string>
+    <string name="title_btn_skip">SKIP</string>
+
+    <!--User Account screen-->
+    <string name="title_account_settings">Account settings</string>
+    <string name="title_my_products">My pictures</string>
+    <string name="title_settings_faq">FAQ</string>
+    <string name="title_contacts">Contacts</string>
+    <string name="title_share_with_friends">Share with friends</string>
+    <string name="title_text_privacy_policy">Privacy Policy</string>
+    <string name="title_text_terms_conditions">Terms and Conditions</string>
+    <string name="btn_title_logout">LOG OUT</string>
+
+    <!--Account Settings screen-->
+    <string name="btn_title_save_account_settings">SAVE</string>
+
+    <!--My Products Screen-->
+    <string name="screen_title_my_products">My pictures</string>
+    <string name="btn_title_goods">Goods</string>
+    <string name="btn_title_chats">Chats</string>
+
+    <!--Trending Screen-->
+    <string name="screen_title_trending">Trending now</string>
+
+    <!--Add Product Screen-->
+    <string name="input_hint_currency">Currency</string>
+    <string name="input_hint_comments">Comments</string>
+    <string name="input_hint_price">Price</string>
+    <string name="btn_title_blinkshare">BLINKSHARE</string>
+    <string name="btn_title_upload_picture">Upload to Map</string>
+    <string name="input_custom_latitude">Custom latitude</string>
+    <string name="input_custom_longitude">Custom longitide</string>
+    <string name="input_custom_address">Custom address</string>
+
+    <!--Categories Screen-->
+    <string name="screen_title__select_category">Select Category</string>
+    <string name="title_next_btn">Next</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="on_boarding_1">Welcome to BlinkShare, the only map which gives you up-to-date information on Empty Leg Flights and lets you post on the same map.</string>
+    <string name="on_boarding_2">If you want to post something, kindly create an account. It’s FREE and simple: only an email address is required. Registering also gives you the possibility to FOLLOW flights and to be informed of price, schedule or itinerary changes.</string>
+    <string name="on_boarding_3">Posts have a 24-hour online presence by default: a timer appears on the top right-hand corner of the post.</string>
+    <!--    <string name="on_boarding_3">Thanks for creating an account!\nNow, you may browse the globe and take pictures</string>-->
+    <string name="on_boarding_4">LIKING a post will add 1 hour to the timer; UNLIKING a post will remove 1 hour to the timer. Posts can be liked or unliked only once.</string>
+    <string name="on_boarding_5">The red exclamation mark in the bottom right-hand corner allows you to report a post you may find offensive. Reporting a post will remove the post from YOUR map but will NOT delete it from the map.</string>
+    <string name="on_boarding_6">Enjoy BlinkShare Travel and send us your feedback so we may improve this innovative app.</string>
+</resources>

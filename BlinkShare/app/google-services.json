@@ -1,0 +1,151 @@
+{
+  "project_info": {
+    "project_number": "830183832964",
+    "firebase_url": "https://snappbay1111.firebaseio.com",
+    "project_id": "snappbay1111",
+    "storage_bucket": "snappbay1111.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830183832964:android:1c7d0e2f4c9374f7e431d1",
+        "android_client_info": {
+          "package_name": "app.blinkshare.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830183832964-91j3aiafjrg25n6q53e3nur9q56p2fs7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.blinkshare.android",
+            "certificate_hash": "c75ccf003a96acde8c1e6ba9aab2fa145b57d38a"
+          }
+        },
+        {
+          "client_id": "830183832964-b2g2o75k4vdttkgefk2m13ikm037ctml.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.blinkshare.android",
+            "certificate_hash": "ccf91bcb9df267125c3530937e98a20ff0b98678"
+          }
+        },
+        {
+          "client_id": "830183832964-tiknots1ag9jgv3u6isj2q079aduiv9v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.blinkshare.android",
+            "certificate_hash": "ae1f5f31eb7d574274a892541278fcc6594429b6"
+          }
+        },
+        {
+          "client_id": "830183832964-70jo5be6ato2l7j9kg19lqjpaf8o4ja3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9YvGJNu6_pmYbxPQchTgQKuOOvA95ixk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830183832964-70jo5be6ato2l7j9kg19lqjpaf8o4ja3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "830183832964-9evb22e81tqn7mjv5n20dfr005g3dhd4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.blinkshare.ios"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830183832964:android:50618108a741d939e431d1",
+        "android_client_info": {
+          "package_name": "app.blinkshare.travel.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830183832964-tbb0qnnnbqj73kmkpi5dbo5eg80hdoa5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.blinkshare.travel.android",
+            "certificate_hash": "ae1f5f31eb7d574274a892541278fcc6594429b6"
+          }
+        },
+        {
+          "client_id": "830183832964-70jo5be6ato2l7j9kg19lqjpaf8o4ja3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9YvGJNu6_pmYbxPQchTgQKuOOvA95ixk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830183832964-70jo5be6ato2l7j9kg19lqjpaf8o4ja3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "830183832964-9evb22e81tqn7mjv5n20dfr005g3dhd4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.blinkshare.ios"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830183832964:android:6eea5aa70f73a65ee431d1",
+        "android_client_info": {
+          "package_name": "com.vasilkoff.snappbay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830183832964-70jo5be6ato2l7j9kg19lqjpaf8o4ja3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9YvGJNu6_pmYbxPQchTgQKuOOvA95ixk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830183832964-70jo5be6ato2l7j9kg19lqjpaf8o4ja3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "830183832964-9evb22e81tqn7mjv5n20dfr005g3dhd4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.blinkshare.ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

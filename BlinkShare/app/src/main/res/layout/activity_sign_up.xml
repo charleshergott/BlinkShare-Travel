@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBg"
+        tools:context=".SignUpActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="100dp">
+
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/logo" />
+
+            <EditText
+                android:id="@+id/etUserName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/imgLogo"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_round_input_box"
+                android:fontFamily="@font/ubuntu_regular"
+                android:hint="@string/hint_username"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLength="50"
+                android:paddingStart="15dp"
+                android:paddingEnd="12dp"
+                android:textColor="@color/text_color_input_box"
+                android:textColorHint="@color/hint_color_input_box"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/etUserName"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:text="Username should contains only lowercase letters and numbers without space eg: katherine_langford, katherine9"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_9ssp" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/tvUserName"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_round_input_box"
+                android:fontFamily="@font/ubuntu_regular"
+                android:hint="@string/hint_email"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:maxLength="50"
+                android:paddingStart="15dp"
+                android:paddingEnd="12dp"
+                android:textColor="@color/text_color_input_box"
+                android:textColorHint="@color/hint_color_input_box"
+                android:textSize="@dimen/_10ssp" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/etEmail"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/bg_round_input_box"
+                android:fontFamily="@font/ubuntu_regular"
+                android:hint="@string/hint_password"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:maxLength="50"
+                android:paddingStart="15dp"
+                android:paddingEnd="10dp"
+                android:textColor="@color/text_color_input_box"
+                android:textColorHint="@color/hint_color_input_box"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/tvPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/etPassword"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:text="Password should be at least 6 characters long"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_9ssp" />
+
+            <EditText
+                android:id="@+id/etConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/tvPassword"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_round_input_box"
+                android:fontFamily="@font/ubuntu_regular"
+                android:hint="@string/hint_confirm_password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLength="50"
+                android:paddingStart="15dp"
+                android:paddingEnd="10dp"
+                android:textColor="@color/text_color_input_box"
+                android:textColorHint="@color/hint_color_input_box"
+                android:textSize="@dimen/_10ssp" />
+
+            <Button
+                android:id="@+id/btnCreateAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etConfirmPassword"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="70dp"
+                android:background="@drawable/gradient_login_btn"
+                android:fontFamily="@font/ubuntu_bold"
+                android:text="@string/title_create_account_btn"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_10ssp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvAlreadyHaveAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/ubuntu_regular"
+                android:text="@string/title_already_have_account"
+                android:textColor="@color/text_color_title"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/tvLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/ubuntu_bold"
+                android:text="@string/title_login_now"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_10ssp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlProgressLoading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#80000000"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="gone">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animationView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lottie_rawRes="@raw/loading"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

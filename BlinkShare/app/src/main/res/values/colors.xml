@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="launcher_background">#FFFFFF</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FE872D</color>
+
+    <color name="colorBg">#36474f</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlackLight">#767676</color>
+
+    <color name="colorOffline">#F3492B</color>
+    <color name="colorOnline">#34C85A</color>
+
+    <color name="bg_color_input_box">#EEECED</color>
+    <color name="bg_color_pin_circle">#33B6D9ED</color>
+    <color name="hint_color_input_box">#898788</color>
+    <color name="text_color_input_box">#000000</color>
+    <color name="text_color_title">#DADADA</color>
+
+
+
+</resources>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorBg">
+
+                <ImageView
+                    android:id="@+id/imgBackBtn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_back_btn" />
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvProfilePic"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="70dp"
+                    android:elevation="12dp"
+                    app:cardCornerRadius="48dp">
+
+                    <ImageView
+                        android:id="@+id/imgProfilePic"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_profile_pic" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/tvUserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cvProfilePic"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvPoints"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvUserName"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:text=""
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/_14ssp" />
+
+                <TextView
+                    android:id="@+id/tvLevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvPoints"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:text=""
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/_12ssp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvLevel"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    android:paddingTop="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/llAccountSettings"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginRight="35dp"
+                        android:background="@drawable/account_settings"
+                        android:orientation="horizontal"
+                        android:paddingBottom="7dp">
+
+                        <!--<TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="start|center_vertical"
+                            android:layout_marginLeft="20dp"
+                            android:padding="5dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/ubuntu_bold"
+                            android:text="@string/title_account_settings"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_10ssp" />
+
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/ic_next" />-->
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llMyProducts"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="35dp"
+                        android:background="@drawable/my_pictures"
+                        android:orientation="horizontal"
+                        android:paddingBottom="7dp">
+
+                        <!-- <TextView
+                             android:layout_width="0dp"
+                             android:layout_height="wrap_content"
+                             android:gravity="start|center_vertical"
+                             android:layout_marginLeft="20dp"
+                             android:padding="5dp"
+                             android:layout_weight="1"
+                             android:fontFamily="@font/ubuntu_bold"
+                             android:text="@string/title_my_products"
+                             android:textColor="@color/colorWhite"
+                             android:textSize="@dimen/_10ssp" />
+
+
+                         <ImageView
+                             android:layout_width="25dp"
+                             android:layout_height="25dp"
+                             android:layout_gravity="center_vertical"
+                             android:gravity="center_vertical"
+                             android:layout_marginRight="15dp"
+                             android:src="@drawable/ic_next" />-->
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvFaq"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="40dp"
+                        android:fontFamily="@font/ubuntu_bold"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="@string/title_settings_faq"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/_10ssp" />
+
+                    <TextView
+                        android:id="@+id/tvContacts"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/ubuntu_bold"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="@string/title_contacts"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/_10ssp" />
+
+
+                    <TextView
+                        android:id="@+id/tvShareWithFriends"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/ubuntu_bold"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text="@string/title_share_with_friends"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/_10ssp" />
+
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/tvPrivacyPolicy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/tvTermsConditions"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/title_text_privacy_policy"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/_10ssp" />
+
+                <TextView
+                    android:id="@+id/tvTermsConditions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/tvAppVersion"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/title_text_terms_conditions"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/_10ssp" />
+
+                <TextView
+                    android:id="@+id/tvAppVersion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/btnLogout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/text_color_title"
+                    android:textSize="@dimen/_10ssp" />
+
+
+                <Button
+                    android:id="@+id/btnLogout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="70dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/gradient_login_btn"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:text="@string/btn_title_logout"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_10ssp" />
+
+                <RelativeLayout
+                    android:id="@+id/rlProgressLoading"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="#80000000"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <ProgressBar
+                        android:id="@+id/animationView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+</layout>
